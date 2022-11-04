@@ -1,0 +1,10 @@
+.mealsSummary {
+  box-shadow: 0.5rem 0.5rem 10px #777;
+  background-color: #333;
+  color: #fff;
+  margin: 0 5rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: -7rem;
+}

@@ -1,0 +1,14 @@
+.mealsList {
+  width: 100%;
+  position: absolute;
+  top: 3rem;
+  padding: 3rem 4rem;
+}
+
+.loadingMeals {
+  text-align: center;
+}
+
+.mealsList ul {
+  list-style: none;
+}

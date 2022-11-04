@@ -1,0 +1,48 @@
+.button {
+  background-color: #333;
+  border-radius: 50px;
+  color: #fff;
+  padding: 1.5rem !important;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.9;
+  scale: 1.1;
+}
+
+.button span {
+  margin-right: 1rem;
+}
+
+.button .numOfProducts {
+  background-color: #c93636;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  padding: 0.5rem 0.7rem;
+}
+
+.bump {
+  animation-name: bump;
+  animation-duration: 300ms;
+}
+
+@keyframes bump {
+  0% {
+    scale: 1.1;
+  }
+  25% {
+    scale: 1.2;
+  }
+  50% {
+    scale: 1.2;
+  }
+  75% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1;
+  }
+}

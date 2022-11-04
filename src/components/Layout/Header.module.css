@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #c93636;
+  color: #fff;
+}
+
+.header button {
+  padding: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 500px;
+}

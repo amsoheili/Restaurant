@@ -1,0 +1,19 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.meal .mealName {
+  font-weight: bold;
+}
+
+.meal .mealPrice {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.meal .mealItemForm {
+  width: 40%;
+}
